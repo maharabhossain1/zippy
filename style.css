@@ -22,3 +22,30 @@ header {
     background-image: url(/images/iamge-4.jpeg);
   }
 }
+
+.header-section {
+  width: 80%;
+  margin: auto;
+  margin-top: 25vh;
+}
+.top-context {
+  margin: 10%;
+  color: aliceblue;
+}
+.main-title {
+  font-size: 3rem;
+  margin: 25px 0px;
+}
+.header-btn {
+  padding: 15px 35px;
+  margin: 20px 0px;
+  color: aliceblue;
+  background-color: rgb(101, 117, 104);
+  border: 1px solid rgb(139, 153, 141);
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+.header-btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
