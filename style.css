@@ -22,6 +22,9 @@ header {
     background-image: url(/images/iamge-4.jpeg);
   }
 }
+.custom-font-color {
+  color: rgb(102, 100, 100);
+}
 
 .header-section {
   width: 80%;
@@ -48,4 +51,25 @@ header {
 .header-btn:hover {
   background-color: #ccc;
   color: #000;
+}
+
+/* second section style code  */
+.second-section {
+  width: 80%;
+  margin: auto;
+}
+.second-section-top-text {
+  text-align: center;
+  font-size: 3rem;
+  margin: 10vh 0vh;
+}
+
+#second-section-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-icon {
+  font-size: 20rem;
+  margin: 1.5rem;
 }
