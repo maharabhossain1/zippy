@@ -73,3 +73,20 @@ header {
   font-size: 20rem;
   margin: 1.5rem;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+.icon-container:hover {
+  background-color: rgb(101, 117, 104);
+  color: aliceblue;
+  border: 1px solid white;
+}
